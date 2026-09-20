@@ -13,15 +13,16 @@ if (!defined('BASE_PATH'))
 }
 if (!defined('BASE_URL')) 
 {
-    define('BASE_URL', 'http://localhost/lms/');  
+    define('BASE_URL', 'http://localhost:8080/lms/');  
 }
 
 
 
-$host = "localhost";
-$user = "phpmyadmin";
-$password = "P@ssw0rd_123!";
+$host = "mysql";
+$user = "app_user";
+$password = "secure_password_123";
 $dbname = "library_db";
+
 
 
 $conn = new mysqli($host, $user, $password, $dbname);
