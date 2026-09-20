@@ -326,7 +326,3 @@ The system consists of 20+ interconnected tables including:
 - Deployment and Operations Guide
 - Test Plans and Test Cases
 
----
-*Document Version: 1.0*
-*Date: $(date +%Y-%m-%d)*
-*Prepared for: Library Management System Development Team*
